@@ -1,0 +1,17 @@
+.topnav{
+    background-color: #ed9390;
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    margin: 1rem;
+}
+
+.items{
+    text-decoration: none;
+    color: darkgreen;
+}

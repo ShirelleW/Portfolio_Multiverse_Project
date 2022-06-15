@@ -1,7 +1,17 @@
-/* #d8cfaf (dutch white) */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
-.topnav{
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #d8cfaf;
+
+}
+
+.topnav {
     background-color: #ed9390;
+    border-radius: 1rem;
     height: 70px;
     font-size: 30px;
     display: flex;
@@ -9,12 +19,72 @@
     align-items: center;
 }
 
-#title{
+#title {
     margin: 1rem;
+    color: darkgreen;
 }
 
-.items{
+.items {
     text-decoration: none;
     color: darkgreen;
     padding: 10px;
+}
+
+/* Parallax */
+
+.parallax {
+    /* The image used */
+    background-image: url("https://media.wired.com/photos/5cc244c9af643e2f373ebb28/master/pass/Coding-Becomes-Criminal.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p1 {
+    font-size: 30px;
+}
+
+/* Home Page */
+
+#title_home {
+    text-align: center;
+    font-size: 50px;
+    color: #e6b89c;
+    text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
+}
+
+#scroll_down {
+    text-align: center;
+    color: darkgreen;
+    text-shadow: -1px 0 #e6b89c, 0 1px #e6b89c, 1px 0 #e6b89c, 0 -1px #e6b89c;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    
+}
+
+#p2pics{
+    width: 500px;
+    height: 300px;
+}
+
+#p2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: darkgreen;
+    font-size: 40px;
+}
+#girl_brainstorming {
+    width: 500px;
+
 }

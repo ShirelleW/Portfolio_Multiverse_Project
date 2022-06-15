@@ -1,0 +1,7 @@
+#bio_title{
+    text-align: center;
+    font-size: 50px;
+    color: #e6b89c;
+    text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
+    padding-top: 30px;
+}

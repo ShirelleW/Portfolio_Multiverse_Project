@@ -4,4 +4,25 @@
     color: #e6b89c;
     text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
     padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.biography{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner_bio{
+    width: 600px;
+    padding: 30px;
+    border: 5px;
+    border-style: dotted dashed solid double;
+    border-color: darkgreen;
+
+}
+#bio{
+    text-align: center;
+    font-size: 30px;
+    color: darkgreen;
+    text-shadow: -1px 0 hotpink, 0 1px hotpink, 1px 0 hotpink, 0 -1px hotpink;
 }

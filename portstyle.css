@@ -1,0 +1,26 @@
+#port_title{
+    font-size: 50px;
+    color: #e6b89c;
+    text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
+    padding: 50px;
+    text-decoration: underline 3px solid darkgreen;
+    text-align: center;
+}
+
+#pingpong{
+    width: 1300px;
+    height: 500px;
+}
+
+.project_title{
+    font-size: 40px;
+}
+
+.project_description{
+    font-size: 25px;
+}
+
+#totmfapp{
+    width: 1300px;
+    height: 500px
+}

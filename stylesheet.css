@@ -88,3 +88,22 @@ body {
     width: 500px;
 
 }
+
+@media screen and (max-width: 775px){
+    .items{
+        font-size: 15px;
+    }
+    
+    .for_media{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #p2{
+        font-size: 12px;
+    }
+
+    #p2pics{
+        width: 200px;
+    }
+}

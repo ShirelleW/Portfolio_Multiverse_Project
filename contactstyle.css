@@ -1,0 +1,53 @@
+#contact_title{
+    font-size: 50px;
+    color: #e6b89c;
+    text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
+    padding: 50px;
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 500px;
+    height: 30px; 
+    margin: 12px; 
+}
+
+#concerns{
+    width: 500px;
+    height: 300px
+}
+#submit{
+    width: 100px;
+    height: 35px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 775px){
+    .input{
+        width: 350px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 2px solid darkgreen;
+    }
+
+    #form{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #concerns{
+        width: 350px;
+        height: 300px
+    }
+}

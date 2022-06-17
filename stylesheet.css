@@ -29,6 +29,9 @@ body {
     color: darkgreen;
     padding: 10px;
 }
+.items:hover{
+    background-color: #d8cfaf;
+}
 
 /* Parallax */
 

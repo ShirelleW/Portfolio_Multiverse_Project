@@ -24,7 +24,23 @@
     height: 500px;
 }
 
+.snkrs-app-pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+#snkrspic1, #snkrspic2, #snkrspic3{
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+#storepic1, #storepic2 {
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 25px;
+}
 /* Portfolio */
 
 @media screen and (max-width: 775px){
